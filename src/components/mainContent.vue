@@ -1,6 +1,6 @@
 <template>
   <div class="maincontent" :class="{yscroll:scrollY}">
-    
+    <slot name="content"></slot>
   </div>
 </template>
 

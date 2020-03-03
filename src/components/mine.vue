@@ -1,6 +1,6 @@
 <template>
   <div class="mine">
-      <appTitle start="返回" title="我的" end="" />
+      <appTitle start="" title="我的" end="" />
       <mainContent scrollY/>
   </div>
 </template>

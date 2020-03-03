@@ -1,6 +1,6 @@
 <template>
   <div class="club">
-      <appTitle start="返回" title="车汇" end="" />
+      <appTitle start="" title="车汇" end="" />
       <mainContent scrollY/>
   </div>
 </template>

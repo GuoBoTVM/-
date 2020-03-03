@@ -5,6 +5,7 @@ import club from './club.vue'
 import index from './index.vue'
 import message from './message.vue'
 import mine from './mine.vue'
+import detail from './detail.vue'
 
 const components={
     mainContent,
@@ -13,7 +14,8 @@ const components={
     club,
     index,
     message,
-    mine
+    mine,
+    detail
 }
 export default{
     install(Vue){

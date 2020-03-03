@@ -9,6 +9,7 @@ import cpts from './components/index.js'
 Vue.use(cpts)
 //引入flexiblejs
 import 'amfe-flexible/index.js'
+import 'animate.css'
 
 Vue.config.productionTip = false
 

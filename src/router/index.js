@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import indexPage from '@/components/indexPage'
-import club from '@/components/club'
+import detail from '@/components/detail'
 
 Vue.use(Router)
 
@@ -12,9 +12,9 @@ export default new Router({
       name: 'indexPage',
       component: indexPage
     },{
-      path:"/club",
-      name:"club",
-      component:club
+      path:"/detail",
+      name:"detail",
+      component:detail
     }
   ]
 })
